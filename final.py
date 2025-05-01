@@ -18,7 +18,7 @@ import io
 load_dotenv()
 
 # LangSmith tracing
-os.environ["LANGCHAIN_API_KEY"] = "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"
+os.environ["LANGCHAIN_API_KEY"] = "YOUR_LANGCHAIN_KEY"
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"] = "streamlit-sql-chatbot"
 
